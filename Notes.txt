@@ -1,0 +1,149 @@
+iMarquee Tag
+-------------
+-> Used to scroll content
+Attributes
+------------
+    1. direction: left, right, up, down
+    2. scrollamount: scroll, slide
+    3. behaviour
+    4. loop
+
+
+List in HTML
+--------------
+-> Collection of data or information or items
+-> Types of List
+    1. Ordered List
+    2. Unordered List
+    3. Description/ Definition List
+    4. Nested List
+
+1. Ordered List
+    -> In HTML to display ordered list here need to use <ol></ol>
+    -> This ordered list contains list items <li></li>
+
+    Ordered List Attributes
+    -----------------------
+    1. Type: 1, a, A, i, I
+    2. Start: 
+    3. Reversed
+
+2. Unordered List   
+    -> In HTML to display ordered list here need to use <ul></ul>
+    -> This ordered list contains list items <li></li>
+
+    Unordered List Attributes
+    -----------------------
+    1. Type: none, desc(default value), square, circle
+
+3. Description List/ Definition List
+    1. <dl></dl>  Definition List
+    2. <dt></dt>  Definition Term
+    3. <dd></dd>  Definition Data 
+
+4. Nested List
+
+
+
+  Table's in HTML:-
+  ------------------
+        -> The Collection of row's and columns or Collection of cell's 
+           is called as a Table.
+        -> to design table in web page here we need to use table tag 
+           <table></table>
+
+           Table tags:-
+           -----------
+             1. <tr></tr>               ->table row             
+             2. <td>,</td>              ->table             
+             3. <th></th>
+             4. <thead></thead>
+             5. <tbody></tbody>
+             6. <tfoot></tfoot>
+             7. <colgroup></colgroup>
+             8. <col>
+    Table Attributes:
+    ----------------
+            1. border: 
+              -> the space between padding and marginn 
+            2. cell spaceing:
+                -> The space between cells in Table.
+            3. cellpadding:
+                -> The space b/w cell contet and cell border
+    tABLE call Attributes(td/th):
+    ----------------------------
+            1. colspan : used to marge columns in table.
+            2. rowspan : used to marge rows in Table.
+
+  Forms In HTML:
+  --------------------
+        ->Forms are used to collect user information digitally
+        ->In HTML Form contains some tags:
+                1. <Form></Form>                ->Form tag
+                2. <fieldset></fieldset>        ->Form border
+                3. <legend></legend>            ->form label or form re
+                4. <label></label>              ->form labeling 
+                5. <input></input>              ->used collection input from
+                6. <button></button>
+                7. placeholder
+
+
+    form input 
+
+            1. txt              
+            2.password
+            3. Number
+            4. radio
+            5. check box
+            6. file
+            7.button
+            8. tel 
+            9. email
+            10. submit
+            11. time
+            12. date
+            13. week
+            14. month
+            15. color 
+            16.image
+            17 date time
+            18 url
+            19 date time location
+            20. range
+
+Multi media tags:-
+-----------------   
+        -> media tags ar used to display videos, images, audios, or 
+        embed externals websites and weboages, googlemaps , youtube videos...
+        ->This Multi media tags are intreduced in HTML version 5.
+        ->media Tags Like:-
+                1. <img></img>
+                2. <video></video>
+                        -> video is used to display videos in web page
+                        -> This video will work when contains ""controls" Attribure
+
+                        video tag Attribute:
+                        `       1. src(Source)
+                                2. height
+                                3. width
+                                5. controls
+                                5. looop
+                                6.autoplay
+                                7. muted
+                                
+                3.<audio></audio>
+            Audio Tag Attribure:
+            -----------------
+            1. src(scorece)
+
+            IFREAM:-
+                4.<iframe></iframe>
+                Ifream is use to embed external Web Pages and Web sites 
+                Google maps or Youtube video.
+
+                Ifream Attributes:-
+                -------------
+                1. src
+                1. frameborder.
+                3. height
+                4. width

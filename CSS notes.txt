@@ -1,0 +1,103 @@
+External Css :
+-----------------
+        1.Inline css / Inline Stylings 
+        2.Inline css / Internal Stylings
+
+        3. External CSS / External Stylings
+                -> applying Stylings by creating a new . css file and link 
+                  css file to HTML taking <link> tag in head section.
+                  
+
+                -> Link tag contains 2 attributes
+                1. rel (relative)
+                2, href( hyoer reference)          
+
+ol>li{list-iternsss-$}*6
+CSS Sectors:-
+        3. p
+
+
+COLOUR VALUES IN CSS:-
+                ->We can apply colours a background or test shadow , box shadow, border colours.
+                ->We have diffrent colour values are there 
+                             1.colour name.
+                             2. rgb(red,blue,green)
+                             3. rgba(red,blue,green,alpha)
+                             4. hsl(hue,saturation, lightness)  :hue 0-360 deg
+                             5. hsla(hue , saturation, lightness, alpha)
+                             6. hexacode
+                             7. transparent.
+
+
+Text Proprties is CSS:-
+                1. Text Colourings:
+                        i. colour.
+                        ii. text-shadow.
+                2. Text alignment Proprties
+                        i. text-alignment
+                        ii. word-spacing
+                        iii. letter-spacing
+                        iv. line-height.
+                        v . text-indent
+                3. text decoration Proprties
+                        i.text-decoration-line : underline, overline, line-throug, 
+                        ii.text-decoration-style: solid, double , dotted , dashed, wavy,none. .. ...
+                        iii.text-decoration-color
+                        iv. text-decoration-thickness.
+                        v. text-decoration  (short hand form)
+                4. text transform Proprties:
+                        i.text-transform : lowercase, uppercase , capitalized
+                5. font Proprties
+                        i.font-size
+                        ii. font-family
+                        iii. font-style
+                        iv. font-weight
+                6. Text overflow Proprties:
+                        i. overflow
+                        ii. overflow-x
+                        iii.overflow-y
+                7. Text direction Proprties
+                        i. test-direction
+                        ii. unicode bidi
+
+CSS Box Model :
+   ----------------
+      -> Each and every html Elements follows box Model
+        1. content
+        2.padding
+            ->The space between content and border is called as a padding
+            ->we can apply colorings for html Elementsin 4 sides
+            ->we can't apply coloringsand stylingsfor padding
+
+            Padding Properties :
+            ---------------------
+               1.padding-top
+               2.padding-left
+               3.padding-right
+               4.padding-bottom
+               5.padding (short hand form)
+
+
+        3.border
+         ->The space betweenpadding and margin is called as a border
+         ->We can apply colorings and stylings for the border
+
+         Border Properties :
+         ----------------------
+            border-style
+            border-width
+            border-color
+            border-(short hand form)
+            border top
+            border bottom
+            border left
+            border-right
+
+         Border Radius Properties
+            1.border-top-left-Radius
+            2. border-top-right-Radius
+            3. border-bottom-left-Radius
+            4. border-bottom-right-Radius
+            5. border-Radius (short hand form)
+        
+         4.margin
