@@ -1,0 +1,118 @@
+2 . Container Data Type:-
+-----------------------------
+	Container data type are used to store Multiple values ina single variable.
+  	 a). List
+	       --> A List is an order collection.
+	       --> Lists are mutable (changeable).
+	       --> List allow duplicate values.
+	      -->  List can stored different data types.
+	       --> Elements are encolosed in square brackets [].
+	Example :- Student = [ " Ananth", 123,87.96]
+	b). Tuple
+	     --> A tuple is an order Collection
+	     --> Tuple are Immutable (Cannot Be Changed)
+	     --> Tuple allow duplecate values.
+	    -->> Elements are enclose in parentheses().
+	Example:- Colors = ("Red" , "Green", " Blue")
+	c). Set
+	     -->A Set is an unordered collection 
+	     -->Sets are mutable.
+	     -->Sets do not allow duplicate values.
+	     -->Elements are enclose in curly Braces{}
+	Exalmple :- Number = {1,2,3,4,5}.
+	d).Dictionary(dict)
+	    -->A dictionary Stores Data as key-values pairs
+	    -->Dictionary Keys must be unique.
+	    -->Values may be Duplecated
+	    -->Dictionarues are mutable.
+	    -->Elements are enclosed in curly braces{}.
+	Example:- 
+	    Student = {
+		"name": "jonh:,
+		"age": 20,
+		"marks": 75
+		}
+
+3. user - Defined Data Types:-
+-----------------------------------
+	->User defined data types are created by programmers useing classes.
+	-> Objects created from a class belong to that user - defined data type
+	    Example:- 
+		class student:
+		   def_init_(self,name):
+			self.name = name.
+		s = studernt("John")
+		print(type(s))
+
+
+# program to check datatype.
+	a = 100
+	b = 12.53
+	c = 2+5j
+	d = TRUE
+	e = 'hello'
+	f = [1,2,3]
+	g = (2,3,1)
+	h = {1,2,3,4,5}
+	i = {'Name':'Ananth'}
+	j = None
+	print(type(a))
+	print(type(b))
+	print(type(c))
+	print(type(d))
+	print(type(e))
+	print(type(f))
+	print(type(g))
+	print(type(h))
+	print(type(i))
+	print(type(j))
+-------------------------------------------------------------------------------------------------------------
+ Type Converstion:-
+	Definition:- convertion one type value to another type is know as type casting or type is know as type-caseting or type converstion.
+		Python Supports the following in built function for casting.
+
+	1.int()
+	2.float()
+	3.complex()
+	4.bool()
+	5.str()
+
+1).INT :- Used to Convert values form other type to integer data type.
+	Example:-
+		print(int(123.987))  	#123
+		print(int(	true))  	#1
+		print(int(false))  	#0
+		print(int("10"))  	#10
+		print(int("10.5))  	#valueError.
+		
+invalid literal for int() with base 10:
+print(int("ten")) #values error :
+invalid for int() with base 10: 'ten'
+print(int(10+15j)) # type error : can't convert. complex to int.
+complex() : Used to Convert other types to compex Type 
+form - 1: Complex(x) : Used to convert X into complex
+form - 2: complex (x,y) : Used to convert X and Y into compex number such that X will be real part and Y will be imaginary part.
+
+Example :-
+     print(complex(10))			#(10+0j)
+     print(complex(10.5))			#(10+0j)
+     print(complex(true))			#(10+0j)
+     print(complex(false))			#(10+0j)
+     print(complex("10"))			#(10+0j)
+     print(complex("10.5"))			#(10+0j)
+     print(complex(10,-2))			#(10+0j)
+     print(complex(TRUE,FALSE))		#(10+0j)
+     print(complex("TEN"))			#VALUE ERROR
+
+
+
+
+
+ 
+
+
+
+
+
+
+
